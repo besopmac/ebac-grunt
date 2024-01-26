@@ -54,11 +54,11 @@ module.exports = function(grunt) {
           patterns: [
             {
               match: 'ENVIRONMENT',
-              replacement: './styles/main.min.css'
+              replacement: '/styles/main.min.css'
             },
             {
               match: 'ENV_JS',
-              replacement: './scripts/main.min.js'
+              replacement: '/scripts/main.min.js'
             }
           ]
         },
