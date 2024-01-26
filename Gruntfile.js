@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           patterns: [
             {
               match: 'ENV_CSS',
-              replacement: '/styles/main.css'
+              replacement: './styles/main.css'
             },
             {
               match: 'ENV_JS',
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
         options: {
           patterns: [
             {
-              match: 'ENVIRONMENT',
+              match: 'ENV_CSS',
               replacement: './styles/main.min.css'
             },
             {
